@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wilkerson </title>
+		<meta charset="utf-8" name="description" content="Blog de Bladimir">
+		<meta charset="utf-8" name="keywords" content="weblog, blog, Bladimir, diseño, multimedia">
+		<meta charset="utf-8" http-equiv="refresh" content="10">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+		<div id="cajaheader">
+
+		</div>
+		<div id="cprincipal">
+				<header>
+					<div id="logo" style="width: 75px height: 75px">
+						<img src="img/smartphone.svg" width="150" height="150">
+					</div>
+					<h1>Bladimir Pelico Sontay</h1>
+					<h2>Diseñador Web</h2>
+					<nav>
+						<ul>
+							<li><a href="inicio.html"><canvas id="iconoinicio" width="50px" height="50px"> </canvas><br> Inicio</a></li>
+							<li><a href="noticias.html"><canvas id="icononoticias" width="50" height="50" ></canvas><br>Noticias</a></li>
+							<li><a href="sobremi.html"><canvas id="iconosobremi" width="50px" height="50px"></canvas><br>Sobre Mi</a></li>
+							<li><a href="contacto.html"><canvas id="iconocontacto" width="50px" height="50px"></canvas><br>Contacto</a></li>
+						</ul>
+
+					</nav>
+				</header>
+			<div id="contenido">
+				<section id="sobremi">
+					<div id="mifoto"></div>
+				   uesto de trabajo engloba a nivel de educación, nivel de formación, experiencia y habilidades intelectuales y/o físicas. en informática, a un conjunto de características o vocales que tiene un elemento;La informática, también llamada computación,1​ es una ciencia que administra métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital. No existe una definición consensuada sobre el término, lo cual puede comprenderse a través de las Discusiones que acompañan esta página. </section>
+				<aside>
+					<h5>Post Previos</h5>
+					<ul>
+						<li> <a href=""><time>2011-10-01</time> / Musica</a> </li>
+						<li> <a href=""><time>2011-12-01</time> / Peliculas</a> </li>
+						<li> <a href=""><time>2011-11-01</time> / Viaje</a> </li>
+						<li> <a href=""><time>2011-09-01</time> / Feliz Año new</a> </li>
+					</ul>
+				</aside>
+				<section>
+					<article>
+						<div id="musicab"></div>
+						<time>2011-02-05</time>
+						<h3>Musica</h3>
+						<h4>Actualizate</h4>
+						<p> La música (del griego: μουσική [τέχνη] - mousikē [téchnē], «el arte de las musas») es, según la definición tradicional del término, el arte de organizar sensible y lógicamente una combinación coherente de sonidos y silencios utilizando los principios fundamentales de la melodía, la armonía y el ritmo, mediante la intervención de complejos procesos psicoanímicos. El concepto de música ha ido evolucionando desde su origen en la Antigua Grecia, en que se reunía sin distinción a la poesía, la música y la danza como arte unitario. Desde hace varias décadas se ha vuelto más compleja la definición de qué es y qué no es la música, ya que destacados compositores, en el marco de diversas experiencias artísticas fronterizas, han realizado obras que, si bien podrían considerarse musicales, expanden los límites de la definición de este arte.  </p>
+						<audio src="audio/lost.m4a" controls="controls">
+							tu navegador no soporta El Video. Haz Clic <a href="">Aqui</a> para descargar otro navegador.
+						</audio>
+					</article>
+					<article>
+						<div id="peliculab"></div>
+						<time>2011-02-05</time>
+						<h3>Peliculas</h3>
+						<h4>Proximas Producciones</h4>
+						<p> El término cine tiene diversas acepciones vinculadas a la cinematografía: el registro y la exhibición de imágenes en movimiento sobre una pantalla. El cine, por lo tanto, puede ser el arte y la técnica de la cinematografía.Aquel que se dedica a hacer cine es un creador de películas o filmes. Por lo general las películas consisten en contar historias, para lo cual puede apelarse a actores que interpretan distintos personajes y cuyas acciones son registradas por cámaras. Luego de un proceso de edición y de montaje, el filme queda concluido.
+						</p>
+						<video controls="controls" width="400px" height="400px">
+							<source src="video/lost.mp4" type="video/mp4">
+							<source src="video/lost.ogg" type="video/ogg">
+							<source src="video/lost.webm" type="video/webm">
+							tu navegador no soporta El Video. Haz Clic <a href="">Aqui</a> para descargar otro navegador.
+						</video>
+					</article>
+					<article>
+					<div id="viajeb"></div>
+						<time>2011-02-05</time>
+						<h3>Viaje</h3>
+						<h4>Libertad</h4>
+						<p>Libertad es la facultad o capacidad del ser humano de actuar según sus valores, criterios, razón y voluntad.
+							Libertad es también el estado o la condición en que se encuentra un individuo que no está en condición de prisionero, coaccionado o sometido a lo que le ordene otra persona.
+							Asimismo, se utiliza la palabra libertad para referirse a la facultad que tienen los ciudadanos de un país para actuar o no según su voluntad y lo establecido en la ley.
+						</p>
+					</article>
+				</section>
+			</div>
+			<footer>
+				<h6>
+					<div class="vcard">
+						<div><span class="name">Bladimir Pelico Sontay - </span><span class="locality">Mislata - </span><span class="region">Quetzaltenango - </span><span class="postal-code">78952</span> - <span>789956644</span></div>
+					</div>
+
+				</h6>
+			</footer>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+
+	var micolor ="black"
+	var mitercercolor ="white"
+	var miotrocolor ="gray"
+	var escala = 0.5;
+
+// dibujo el icono sobre mi
+	var c=document.getElementById("iconosobremi");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*25,escala*20,escala*0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*90,escala*40,Math.PI, Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+// dibujo icono contacto
+	var c=document.getElementById("iconocontacto");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(miotrocolor);
+	cxt.beginPath();
+	cxt.arc(escala*50-10,escala*25,escala*20,escala*0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(miotrocolor);
+	cxt.beginPath();
+	cxt.arc(escala*50-10,escala*90,escala*40,Math.PI, Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50+10,escala*25,escala*20,escala*0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50+10,escala*90,escala*40,Math.PI, Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+// dibujo icono inicio
+	var c=document.getElementById("iconoinicio");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*40, 0, Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(mitercercolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*30,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*20, 0, Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+// Dibujo Icono Noticias
+	var c=document.getElementById("icononoticias");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*20,escala*0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escala*50,escala*50,escala*40,Math.PI, Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+</script>
